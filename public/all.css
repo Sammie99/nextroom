@@ -1,0 +1,77 @@
+.Fcolor{
+  font-family:'rubik','cinzel';
+  color:blanchedalmond;
+}
+.ellipseBG{
+  background: #6ccc91;
+    background: radial-gradient(ellipse at center,  #69bdd4  20%, #003542 70%);
+    background-size: 100%;
+    border-radius:10px;
+}
+
+.avata {
+  margin-left: 20px;
+  margin-top: 10px;
+  cursor:pointer;
+}
+.roomavailable{
+  font-family:'cairo'; border-radius:20px; color:rgb(245, 237, 237); font-size:60%;
+   background-color:rgb(40, 160, 40); background-size:cover; font-size: 35px; text-align: center;
+  cursor:pointer;
+}
+.roomengaged{
+  font-family:'cairo'; border-radius:20px; color:rgb(245, 237, 237); font-size:60%;
+  background-color:rgb(160, 40, 70); background-size:cover; font-size: 35px; text-align: center;
+  cursor:pointer;
+}
+.Bggradient{
+  border-color: linear-gradient(-45deg, rgb(255, 255, 255), rgb(250, 247, 248), rgb(149, 248, 202), rgb(195, 230, 221));
+	background-size: cover;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+
+
+  @-webkit-keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @-moz-keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+
+
+
+
+  
